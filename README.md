@@ -5,7 +5,7 @@ Yudi Wang, yuw043@ucsd.edu
 
 ## Abstract
 
-Traditional chinese music are quite different from the classic music by both the instruments and the rhythm. Nowadays young people in China feel that music contains traditional chinese element are extremely attractive. In this project, I'll use the GANSynth algorithm to generate traditional chinese country melody. The biggest obstacle should be the collection of dataset. Since I'd like to generate long piece, training based on the midi dataset should be better. However, there exists no suitable chinese traditional midi dataset that we can directly use. Thus, first I will use python scrapy package to grasp the midi dataset from the related website, then we will try three method: 1)use CNN+LSTM; 2)Use GANSynth; 3) Use wavegan; to generate music.
+Traditional chinese music are quite different from the western classic music by both the instruments and the rhythm. Nowadays young people in China feel that music contains traditional chinese element are extremely attractive. In this project, I'll use the GANSynth algorithm to generate traditional chinese country melody. The biggest obstacle should be the collection of dataset. Since I'd like to generate long piece, training based on the midi dataset should be better. However, there exists no suitable chinese traditional midi dataset that we can directly use. Thus, first I will use python scrapy package to grasp the midi dataset from the related website, then we will try three method: 1)use CNN+LSTM; 2)Use GANSynth; 3) Use wavegan; to generate music.
 
 ## Model/Data
 
