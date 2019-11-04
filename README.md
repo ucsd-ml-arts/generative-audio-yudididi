@@ -1,16 +1,18 @@
-# Project 3 Voice of China
+# Project 3 Melody of China
 
 Yudi Wang, yuw043@ucsd.edu
 
 
 ## Abstract
 
-Nowadays young people in China feel that music contains traditional chinese element are super attractive. In this project, I'll use the GANSynth algorithm to generate melody containning the favor of traditional chinese based on the chinese country music. First we will use python scrapy package to grasp the midi dataset we need, then we will try three method: 1)use CNN+LSTM; 2)Use GANSynth; 3) Use wavegan; to generate music.
+Traditional chinese music are quite different from the classic music by both the instruments and the rhythm. Nowadays young people in China feel that music contains traditional chinese element are extremely attractive. In this project, I'll use the GANSynth algorithm to generate traditional chinese country melody. The biggest obstacle should be the collection of dataset. Since I'd like to generate long piece, training based on the midi dataset should be better. However, there exists no suitable chinese traditional midi dataset that we can directly use. Thus, first I will use python scrapy package to grasp the midi dataset from the related website, then we will try three method: 1)use CNN+LSTM; 2)Use GANSynth; 3) Use wavegan; to generate music.
 
 ## Model/Data
 
 Data 
+
 https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86
+
 https://kern.humdrum.org/cgi-bin/browse?l=essen/asia/china/han
 
 Briefly describe the files that are included with your repository:
