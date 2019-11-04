@@ -36,7 +36,8 @@ Documentation of your results in an appropriate format, both links to files and 
 ## Technical Notes
 
 Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc? https://github.com/humdrum-tools/humdrum-data
+- Does this code require other pip packages, software, etc?
+https://github.com/humdrum-tools/humdrum-data
 - Does it run on some other (non-datahub) platform? (CoLab, etc.)
 
 ## Reference
