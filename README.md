@@ -1,14 +1,17 @@
-# Project 3 Generative Audio
+# Project 3 Voice of China
 
-Your Name, yourcontact@ucsd.edu
+Yudi Wang, yuw043@ucsd.edu
 
-(Your teammate's contact info, if appropriate)
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+Nowadays young people in China feel that music contains traditional chinese element are super attractive. In this project, I'll use the GANSynth algorithm to generate melody containning the favor of traditional chinese based on the chinese country music. First we will use python scrapy package to grasp the midi dataset we need, then we will try three method: 1)use CNN+LSTM; 2)Use GANSynth; 3) Use wavegan; to generate music.
 
 ## Model/Data
+
+Data 
+https://github.com/lukewys/Guqin-Dataset#%E5%8F%A4%E7%90%B4%E6%95%B0%E6%8D%AE%E9%9B%86
+https://kern.humdrum.org/cgi-bin/browse?l=essen/asia/china/han
 
 Briefly describe the files that are included with your repository:
 - trained models
@@ -31,7 +34,7 @@ Documentation of your results in an appropriate format, both links to files and 
 ## Technical Notes
 
 Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
+- Does this code require other pip packages, software, etc? https://github.com/humdrum-tools/humdrum-data
 - Does it run on some other (non-datahub) platform? (CoLab, etc.)
 
 ## Reference
